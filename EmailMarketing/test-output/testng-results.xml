@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-19T12:56:33 IST" name="Email Marketing suite" finished-at="2023-08-19T12:57:24 IST" duration-ms="50649">
+    <groups>
+    </groups>
+    <test started-at="2023-08-19T12:56:33 IST" name="OPEND" finished-at="2023-08-19T12:57:24 IST" duration-ms="50649">
+      <class name="com.OpendTestCases.LoginTest1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:34 IST" name="setup" finished-at="2023-08-19T12:56:39 IST" duration-ms="5225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyByValidcredentials()[pri:1, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:39 IST" name="verifyByValidcredentials" finished-at="2023-08-19T12:56:40 IST" duration-ms="1517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyByValidcredentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:40 IST" name="TearDown" finished-at="2023-08-19T12:56:40 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:41 IST" name="setup" finished-at="2023-08-19T12:56:45 IST" duration-ms="4056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyByinvalidcredentials(java.lang.String,java.lang.String)[pri:2, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:45 IST" name="verifyByinvalidcredentials" data-provider="DataSupplier" finished-at="2023-08-19T12:56:46 IST" duration-ms="1348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admiiiin@oped.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2222]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyByinvalidcredentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:46 IST" name="TearDown" finished-at="2023-08-19T12:56:46 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:46 IST" name="setup" finished-at="2023-08-19T12:56:50 IST" duration-ms="4000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyByinvalidcredentials(java.lang.String,java.lang.String)[pri:2, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:50 IST" name="verifyByinvalidcredentials" data-provider="DataSupplier" finished-at="2023-08-19T12:56:52 IST" duration-ms="1419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admmmmin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[23412]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyByinvalidcredentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:52 IST" name="TearDown" finished-at="2023-08-19T12:56:52 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:52 IST" name="setup" finished-at="2023-08-19T12:56:56 IST" duration-ms="3897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyByvalid_emailID_invalidpassword()[pri:3, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:56 IST" name="verifyByvalid_emailID_invalidpassword" finished-at="2023-08-19T12:56:57 IST" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyByvalid_emailID_invalidpassword -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:57 IST" name="TearDown" finished-at="2023-08-19T12:56:57 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:56:57 IST" name="setup" finished-at="2023-08-19T12:57:02 IST" duration-ms="5046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyByinvalid_emailID_validpassword()[pri:4, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:57:02 IST" name="verifyByinvalid_emailID_validpassword" finished-at="2023-08-19T12:57:04 IST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyByinvalid_emailID_validpassword -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:57:04 IST" name="TearDown" finished-at="2023-08-19T12:57:04 IST" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:57:04 IST" name="setup" finished-at="2023-08-19T12:57:08 IST" duration-ms="4118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyBywithoutprovidingcredentials()[pri:5, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:57:08 IST" name="verifyBywithoutprovidingcredentials" finished-at="2023-08-19T12:57:09 IST" duration-ms="1256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBywithoutprovidingcredentials -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.OpendTestCases.LoginTest1@74e28667]" started-at="2023-08-19T12:57:09 IST" name="TearDown" finished-at="2023-08-19T12:57:09 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.OpendTestCases.LoginTest1 -->
+      <class name="com.OpendTestCases.DashboardTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.OpendTestCases.DashboardTest@14028087]" started-at="2023-08-19T12:57:09 IST" name="Setup" finished-at="2023-08-19T12:57:13 IST" duration-ms="4011" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="DashboardFrame()[pri:0, instance:com.OpendTestCases.DashboardTest@14028087]" started-at="2023-08-19T12:57:13 IST" name="DashboardFrame" finished-at="2023-08-19T12:57:24 IST" duration-ms="10322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashboardFrame -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpendTestCases.DashboardTest@14028087]" started-at="2023-08-19T12:57:24 IST" name="tearDown" finished-at="2023-08-19T12:57:24 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OpendTestCases.DashboardTest -->
+    </test> <!-- OPEND -->
+  </suite> <!-- Email Marketing suite -->
+</testng-results>
