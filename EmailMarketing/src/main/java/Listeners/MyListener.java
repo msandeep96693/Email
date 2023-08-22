@@ -1,5 +1,6 @@
 package Listeners;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -9,6 +10,7 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 
 import Utils.ExtentReporter;
+import Utils.Utilities1;
 
 public class MyListener implements ITestListener  {
 	
@@ -40,15 +42,29 @@ public class MyListener implements ITestListener  {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		
+		String testName = result.getName();
+		
+		WebDriver driver = null;
+		
+		try {
+			driver = (WebDriver)result.getTestClass().getRealClass().getDeclaredField("driver").get(result.getInstance());
+		} catch (IllegalArgumentException | IllegalAccessException | NoSuchFieldException | SecurityException e) {
+			e.printStackTrace();
+		}
+		String ScreenShotpath = Utilities1.captureScreenShot(driver, result.getName());
+		extentTest.addScreenCaptureFromPath(ScreenShotpath);
 		extentTest.log(Status.FAIL, result.getThrowable());
 		extentTest.log(Status.FAIL, result.getName()+" Got Failed");
+		
 	}
 
 	@Override
 	public void onTestSkipped(ITestResult result) {
 		
+		
 		extentTest.log(Status.SKIP, result.getThrowable());
 		extentTest.log(Status.SKIP, result.getName()+" Got skipped");
+		
 	}
 
 	@Override

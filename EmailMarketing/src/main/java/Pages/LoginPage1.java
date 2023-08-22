@@ -12,7 +12,7 @@ public class LoginPage1 {
 	@FindBy(id="email_id") private WebElement usertextfield;
 	@FindBy(id="password") private WebElement passwordtextfield;
 	@FindBy(xpath ="//button[.='Sign In']") private WebElement sign_inButton;
-	@FindBy(xpath = "//div[@class='nav-title']") private WebElement adminelementText;
+	@FindBy(xpath = "//div[@class='nav-title']A") private WebElement adminelementText;
 	@FindBy(xpath ="//div[@id='alert_failed']") private WebElement WarningmessageText;
 	
 	public LoginPage1(WebDriver driver) {

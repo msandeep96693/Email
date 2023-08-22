@@ -9,15 +9,42 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Email Marketing suite</th></tr>
-<tr><td><a href="#t0">OPEND</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">50,649</td><td></td><td></td></tr>
+<tr><td><a href="#t0">OPEND</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">58,520</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Email Marketing suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">OPEND &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.OpendTestCases.DashboardTest</td><td><a href="#m0">DashboardFrame</a></td><td rowspan="1">1692430033904</td><td rowspan="1">10322</td></tr><tr class="passedodd"><td rowspan="6">com.OpendTestCases.LoginTest1</td><td><a href="#m1">verifyByValidcredentials</a></td><td rowspan="1">1692429999317</td><td rowspan="1">1517</td></tr><tr class="passedodd"><td><a href="#m2">verifyByinvalid_emailID_validpassword</a></td><td rowspan="1">1692430022962</td><td rowspan="1">1328</td></tr><tr class="passedodd"><td><a href="#m3">verifyByinvalidcredentials</a></td><td rowspan="2">1692430010980</td><td rowspan="2">1419</td></tr><tr class="passedodd"><td><a href="#m4">verifyByinvalidcredentials</a></td></tr><tr class="passedodd"><td><a href="#m5">verifyByvalid_emailID_invalidpassword</a></td><td rowspan="1">1692430016412</td><td rowspan="1">1383</td></tr><tr class="passedodd"><td><a href="#m6">verifyBywithoutprovidingcredentials</a></td><td rowspan="1">1692430028519</td><td rowspan="1">1256</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Email Marketing suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">OPEND &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.OpendTestCases.LoginTest1</td><td><a href="#m0">verifyByValidcredentials</a></td><td rowspan="1">1692620788377</td><td rowspan="1">1593</td></tr><tr><th colspan="4">OPEND &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.OpendTestCases.DashboardTest</td><td><a href="#m1">DashboardFrame</a></td><td rowspan="1">1692620826896</td><td rowspan="1">12537</td></tr><tr class="passedodd"><td rowspan="5">com.OpendTestCases.LoginTest1</td><td><a href="#m2">verifyByinvalid_emailID_validpassword</a></td><td rowspan="1">1692620813190</td><td rowspan="1">1429</td></tr><tr class="passedodd"><td><a href="#m3">verifyByinvalidcredentials</a></td><td rowspan="2">1692620795347</td><td rowspan="2">1512</td></tr><tr class="passedodd"><td><a href="#m4">verifyByinvalidcredentials</a></td></tr><tr class="passedodd"><td><a href="#m5">verifyByvalid_emailID_invalidpassword</a></td><td rowspan="1">1692620807364</td><td rowspan="1">1523</td></tr><tr class="passedodd"><td><a href="#m6">verifyBywithoutprovidingcredentials</a></td><td rowspan="1">1692620819279</td><td rowspan="1">1370</td></tr></tbody>
 </table>
-<h2>OPEND</h2><h3 id="m0">com.OpendTestCases.DashboardTest#DashboardFrame</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.OpendTestCases.LoginTest1#verifyByValidcredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>OPEND</h2><h3 id="m0">com.OpendTestCases.LoginTest1#verifyByValidcredentials</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //div[@class=&apos;nav-title&apos;]A because of the following error:
+SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//div[@class=&apos;nav-title&apos;]A&apos; is not a valid XPath expression.
+  (Session info: chrome=113.0.5672.92)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-79-generic&apos;, java.version: &apos;17.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4cfcd5e28324574f1c41d23196acac1d, findElement {using=xpath, value=//div[@class=&apos;nav-title&apos;]A}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.92, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: /tmp/.com.google.Chrome.fsuVZW}, goog:chromeOptions: {debuggerAddress: localhost:44543}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:44543/devtoo..., se:cdpVersion: 113.0.5672.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cfcd5e28324574f1c41d23196acac1d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy18.getText(Unknown Source)
+	at Pages.LoginPage1.VerifyElementText(LoginPage1.java:37)
+	at com.OpendTestCases.LoginTest1.verifyByValidcredentials(LoginTest1.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.OpendTestCases.DashboardTest#DashboardFrame</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.OpendTestCases.LoginTest1#verifyByinvalid_emailID_validpassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.OpendTestCases.LoginTest1#verifyByinvalidcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admmmmin@gmail.com</td><td>23412</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.OpendTestCases.LoginTest1#verifyByinvalidcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admiiiin@oped.com</td><td>2222</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.OpendTestCases.LoginTest1#verifyByinvalidcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admiiiin@oped.com</td><td>2222</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.OpendTestCases.LoginTest1#verifyByinvalidcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admmmmin@gmail.com</td><td>23412</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m5">com.OpendTestCases.LoginTest1#verifyByvalid_emailID_invalidpassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m6">com.OpendTestCases.LoginTest1#verifyBywithoutprovidingcredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
